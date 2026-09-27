@@ -2,6 +2,10 @@
 We went through the summative lab so as to divide the work amongst ourselves. Everyone downloaded the dataset they were working on; the Wine, Chickwts and USArrests datasets
 We first understood what the datasets were talking about, prepared the data by checking if there were any missing values, duplicate values and any inconsistencies. We then clenaed the data and standardized the numerical features using StandardScaler for the ones required
 
+For the wine dataset, PCA reduced the 13 features to 10 retaining almost 95% of the variance
+GridSearchCV identified k as 13, uniform weights and manhattan distance as the best combination
+The final model achieved 97.78% accuracy on the test after working with k-nn showing it was able to classify the wines with high accuracy
+
 For Chickwts recommendation system, we used PCA to reduce the dimensionality to one (PC1) which showed the standardized weight between the feed types
 We then used cosine similarity to see which feed types had the similar PC1 values. Casein, meatmeal and sunflower had positive similar relationships while horsebean, linseed and soybean had negative similar relationships.
 When we look at the cosine similarity results, casein can be recommended as similar to meatmeal and sunflower, while horsebean can be similar to linseed and soybean based on the weight feature 
