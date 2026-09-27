@@ -1,4 +1,4 @@
-# DataVine-Analytics-Groupwork-Summative-Lab
+# DataVine-Analytics-Groupwork-Summative-Lab- Group 3
 We went through the summative lab so as to divide the work amongst ourselves. Everyone downloaded the dataset they were working on; the Wine, Chickwts and USArrests datasets
 We first understood what the datasets were talking about, prepared the data by checking if there were any missing values, duplicate values and any inconsistencies. We then clenaed the data and standardized the numerical features using StandardScaler for the ones required
 
